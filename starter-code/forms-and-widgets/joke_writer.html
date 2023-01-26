@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+
+{% block title %}Job Application: Joke Writer{% endblock %}
+{% block main %}
+  <h2 class="text-center">Joke Writer Application</h2>
+  <div class="card border-primary m-auto mb-3 p-3" style="max-width: 40rem">
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-success float-right">Apply</button>
+      </form>
+  </div>
+{% endblock %}

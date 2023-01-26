@@ -1,0 +1,56 @@
+footer {
+  border-top: 1px solid darkgreen;
+}
+
+header {
+  border-bottom: 1px solid darkgreen;
+}
+
+h2 {
+  font-style: italic;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+/* FORM STYLES */
+label {
+  font-variant: small-caps;
+}
+
+.form-check {
+  display: inline-block;
+  font-weight: normal;
+  margin: 0 1rem;
+}
+
+/* MESSAGE STYLES */
+.message {
+  background-color: palegoldenrod;
+  color: black;
+}
+
+.messagedebug {
+  background-color: slategray;
+  color: white;
+}
+.messageinfo {
+  background-color: azure;
+  color: darkblue;
+}
+
+.messagesuccess {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.messagewarning {
+  background-color: lightgoldenrodyellow;
+  color: darkgoldenrod;
+}
+
+.messageerror {
+  background-color: pink;
+  color: darkred;
+}
